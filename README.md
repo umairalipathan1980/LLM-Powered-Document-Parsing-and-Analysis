@@ -15,7 +15,7 @@ Install the following libraries for this code.
 !pip install matplotlib  # For creating static, animated, and interactive plots  
 !pip install openai  # For interacting with the OpenAI API  
 !pip install seaborn  # For statistical data visualization
-
+```
 #How code works
 The code in the first cell of the notebook extracts text from the WORD documents and send each document to gpt-4o-mini via successive API calls. The model returns the output in a JSON object which is further parsed and noramlized and finally saved in an Excel file.
 
