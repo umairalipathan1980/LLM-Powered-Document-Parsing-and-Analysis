@@ -4,6 +4,7 @@ The code in this notebook extracts key information from semi-structured and unst
 ![Example Image](images/parsing_workflow.png)  
 
 Install the following libraries for this code.  
+```python
 !pip install tqdm  # For displaying a progress bar for document processing  
 !pip install requests  # For making HTTP requests  
 !pip install pandas  # For data manipulation and analysis  
