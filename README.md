@@ -1,4 +1,17 @@
 # LLM-Powered-Document-Parsing-and-Analysis
 The code in this notebook extracts key information from semi-structured and unstructued documents using an LLM and subsequently analyzes this information. The following figure shows the entire workflow of document parsing with LLM and subsequent analysis.  
 
-![Example Image](images/parsing_workflow.png)
+![Example Image](images/parsing_workflow.png)  
+
+Install the following libraries for this code.  
+!pip install tqdm  # For displaying a progress bar for document processing  
+!pip install requests  # For making HTTP requests  
+!pip install pandas  # For data manipulation and analysis  
+!pip install python-docx  # For processing Word documents  
+!pip install plotly  # For creating interactive visualizations  
+!pip install numpy  # For numerical computations  
+!pip install scikit-learn  # For machine learning algorithms and tools  
+!pip install matplotlib  # For creating static, animated, and interactive plots  
+!pip install openai  # For interacting with the OpenAI API  
+!pip install seaborn  # For statistical data visualization  
+
