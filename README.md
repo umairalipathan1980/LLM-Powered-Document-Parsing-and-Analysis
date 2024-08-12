@@ -17,7 +17,11 @@ Install the following libraries for this code.
 !pip install seaborn  # For statistical data visualization
 ```
 # How code works
-The code in the first cell of the notebook extracts text from the WORD documents and send each document to gpt-4o-mini via successive API calls. The model returns the output in a JSON object which is further parsed and noramlized and finally saved in an Excel file.
+1. The code in the first cell of the notebook extracts text from the WORD documents and send each document to gpt-4o-mini via successive API calls. The model returns the output in a JSON object which is further parsed and noramlized and finally saved in an Excel file.
+2. The code in the second cell provides basic analyses from some fields in the Excel file.
+3. The code in the third cell performs clustering of 'area/domain' field using k-means algorithm to find the main sectors the companies operate in.
+4. The code in the fourth cell labels each cluster through gpt-4-o-mini.
+5. The code in the last cell provides visualization of the main sectors.
 
  
 
